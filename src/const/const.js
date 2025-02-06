@@ -62,14 +62,14 @@ export const skills = [
     title: "Tailwindcss",
     icon: IconKeys.tailwind,
   },
-  {
+  /*{
     title: "React Js",
     icon: IconKeys.react,
   },
   {
     title: "Next Js",
     icon: IconKeys.nextjs,
-  },
+  },*/
   {
     title: "Git",
     icon: IconKeys.git,
@@ -83,7 +83,7 @@ export const skills = [
     title: "Material UI",
     icon: IconKeys.materialUi,
   },
-
+/*
   {
     title: "Redux Js",
     icon: IconKeys.redux,
@@ -95,11 +95,11 @@ export const skills = [
   {
     title: "Node Js",
     icon: IconKeys.nodejs,
-  },
+  },*/
   {
     title: "TypeScript",
     icon: IconKeys.typeScript,
-  },
+  },/*
   {
     title: "Radix UI",
     icon: IconKeys.radix,
@@ -125,30 +125,24 @@ export const skills = [
   {
     title: "Mongo Db",
     icon: IconKeys.mongodb,
-  },
+  }, */
 ];
 
 export const projects = [
   {
-    img: "../../../img/ecommerce-stripe-2.webp",
-    title: "Ecommerce Stripe",
-    link: "https://ecommerce-stripe-763m.vercel.app/",
-    description: `Proyecto FullStack de un ecommerce con pasarela de pagos stripe integrada, destalles de el product etc.  `,
+    img: "../../../img/infoctn.png",
+    title: "INFOCTN",
+    link: "https://infoctn.vercel.app/",
+    description: `Proyecto de una pagina web para un colegio.  `,
     technologies: [
       {
-        icon: IconKeys.typeScript,
-      },
-      {
-        icon: IconKeys.nextjs,
+        icon: IconKeys.astro,
       },
       {
         icon: IconKeys.tailwind,
       },
       {
-        icon: IconKeys.mongodb,
-      },
-      {
-        icon: IconKeys.stripe,
+        icon: IconKeys.typeScript,
       },
     ],
   },
